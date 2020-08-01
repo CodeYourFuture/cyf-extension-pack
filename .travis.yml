@@ -1,0 +1,30 @@
+os: linux
+dist: bionic
+
+language: node_js
+node_js: 12
+
+cache:
+  npm: true
+
+install:
+  - npm install -g vsce
+
+script:
+  - vsce package
+
+deploy:
+  - provider: releases
+    skip_cleanup: true
+    api_key: $GITHUB_TOKEN
+    name: ${TRAVIS_TAG}
+    file_glob: true
+    file: 
+      - cyf-extension-pack-*.vsix
+    on:
+      tags: true
+  - provider: script
+    skip_cleanup: true
+    script: vsce publish -p $VSCE_TOKEN
+    on:
+      tags: true
