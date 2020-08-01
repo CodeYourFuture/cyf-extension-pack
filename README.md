@@ -14,6 +14,7 @@ Recommended VS Code extensions for CYF students, from https://docs.codeyourfutur
 | GitLens — Git supercharged | `eamodio.gitlens` | Connect with GitHub/Git |
 | Live Server | `ritwickdey.LiveServer` | Run your code in the browser |
 | Live Share | `MS-vsliveshare.vsliveshare` | Share your project with a team |
+| Bracket Pair Colorizer 2 | `CoenraadS.bracket-pair-colorizer-2` | Allows matching brackets to be identified with colours |
 
   [1]: https://img.shields.io/github/workflow/status/CodeYourFuture/cyf-extension-pack/Node.js%20CI
   [2]: https://github.com/CodeYourFuture/cyf-extension-pack/actions/workflows/push.yml
