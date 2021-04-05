@@ -2,7 +2,7 @@
 
 [![Build Status][1]][2] [![Marketplace Version][3]][4]
 
-Recommended VS Code extensions for CYF students, from https://docs.codeyourfuture.io/students/getting-setup#extensions.
+Recommended VS Code extensions for CYF students, from https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#5-2-extensions.
 
 ## Extensions
 
