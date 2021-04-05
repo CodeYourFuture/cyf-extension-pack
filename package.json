@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/codeyourfuture/cyf-extension-pack/issues"
   },
-  "description": "Recommended VS Code extensions for CYF students, from https://docs.codeyourfuture.io/students/getting-setup#extensions.",
+  "description": "Recommended VS Code extensions for CYF students, from https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#5-2-extensions.",
   "engines": {
     "vscode": "^1.43.0"
   },
