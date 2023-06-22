@@ -2,7 +2,7 @@
 
 [![Build Status][1]][2] [![Marketplace Version][3]][4]
 
-Recommended VS Code extensions for CYF students, from https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#5-2-extensions.
+Recommended VS Code extensions for CYF trainees, from https://docs.codeyourfuture.io/leaders/joining-the-course/getting-setup#5.2-extensions.
 
 ## Extensions
 
@@ -15,7 +15,7 @@ Recommended VS Code extensions for CYF students, from https://docs.codeyourfutur
 | Live Server | `ritwickdey.LiveServer` | Run your code in the browser |
 | Live Share | `MS-vsliveshare.vsliveshare` | Share your project with a team |
 
-  [1]: https://img.shields.io/github/workflow/status/CodeYourFuture/cyf-extension-pack/Node.js%20CI
+  [1]: https://img.shields.io/github/actions/workflow/status/CodeYourFuture/cyf-extension-pack/push.yml?branch=main
   [2]: https://github.com/CodeYourFuture/cyf-extension-pack/actions/workflows/push.yml
   [3]: https://img.shields.io/visual-studio-marketplace/v/CodeYourFuture.cyf-extension-pack?style=flat&logo=visual-studio-code
   [4]: https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack
