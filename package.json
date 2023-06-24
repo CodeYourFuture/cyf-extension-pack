@@ -1,7 +1,7 @@
 {
   "name": "cyf-extension-pack",
   "displayName": "Code Your Future Extension Pack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/codeyourfuture/cyf-extension-pack",
   "repository": {
     "type": "git",
