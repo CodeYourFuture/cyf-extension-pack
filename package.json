@@ -19,8 +19,9 @@
     "theme": "light",
     "color": "#FFFFFF"
   },
-  "author": "Jonathan Sharpe <mail@jonrshar.pe>",
+  "author": "Jonathan Sharpe <jonathan@codeyourfuture.io>",
   "contributors": [],
+  "funding": "https://github.com/sponsors/CodeYourFuture",
   "publisher": "CodeYourFuture",
   "license": "ISC",
   "categories": [
