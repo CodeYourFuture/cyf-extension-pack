@@ -1,6 +1,6 @@
 {
   "name": "cyf-extension-pack",
-  "displayName": "Code Your Future Extension Pack",
+  "displayName": "CodeYourFuture Extension Pack",
   "version": "1.0.3",
   "homepage": "https://github.com/codeyourfuture/cyf-extension-pack",
   "repository": {
@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/codeyourfuture/cyf-extension-pack/issues"
   },
-  "description": "Recommended VS Code extensions for CYF students, from https://docs.codeyourfuture.io/course-processes/before-the-course/getting-setup#5-2-extensions.",
+  "description": "Recommended VS Code extensions for CYF trainees, from https://docs.codeyourfuture.io/leaders/joining-the-course/getting-setup#5.2-extensions.",
   "engines": {
     "vscode": "^1.43.0"
   },
