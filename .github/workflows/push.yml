@@ -27,8 +27,8 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/v')
     needs: [ build ]
     environment:
-      name: publish
-      url: https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack
+      name: marketplace
+      url: ${{ vars.URL }}
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-node@v4
