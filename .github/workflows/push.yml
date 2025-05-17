@@ -11,21 +11,38 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
       with:
-        node-version: '18'
-    - run: npm install -g @vscode/vsce
-    - run: vsce package
-    - run: vsce publish -p $VSCE_TOKEN
-      if: startsWith(github.ref, 'refs/tags/v')
+        node-version: '22'
+    - run: npm install --global @vscode/vsce
+    - run: vsce package --out cyf-extension-pack.vsix
+    - uses: actions/upload-artifact@v4
+      with:
+        name: vsix-package
+        path: cyf-extension-pack.vsix
+  deploy:
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/v')
+    environment:
+      name: publish
+      url: https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+    - run: npm install --global @vscode/vsce
+    - uses: actions/download-artifact@v4
+      with:
+        name: vsix-package
+    - run: vsce publish --packagePath cyf-extension-pack.vsix
       env:
-        VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+        VSCE_PAT: ${{ secrets.VSCE_TOKEN }}
     - run: |
         gh release create \
           '${{ github.ref_name }}' \
           --title '${{ github.ref_name }}' \
           cyf-extension-pack-*.vsix
-      if: startsWith(github.ref, 'refs/tags/v')
       env:
         GH_TOKEN: ${{ github.token }}
