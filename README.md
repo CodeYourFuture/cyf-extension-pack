@@ -14,6 +14,7 @@ Recommended VS Code extensions for CYF learners.
 | GitLens — Git supercharged | `eamodio.gitlens` | Connect with GitHub/Git |
 | Live Server | `ritwickdey.LiveServer` | Run your code in the browser |
 | Live Share | `MS-vsliveshare.vsliveshare` | Share your project with a team |
+| Git Mob co-author commits | `RichardKotze.git-mob` | Easily co-author a commit message from the source control panel when pair programming |
 
   [1]: https://img.shields.io/github/actions/workflow/status/CodeYourFuture/cyf-extension-pack/push.yml?branch=main
   [2]: https://github.com/CodeYourFuture/cyf-extension-pack/actions/workflows/push.yml

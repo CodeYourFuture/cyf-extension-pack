@@ -33,7 +33,8 @@
     "streetsidesoftware.code-spell-checker",
     "eamodio.gitlens",
     "ritwickdey.LiveServer",
-    "MS-vsliveshare.vsliveshare"
+    "MS-vsliveshare.vsliveshare",
+    "RichardKotze.git-mob"
   ],
   "keywords": [
     "javascript"
