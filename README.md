@@ -1,4 +1,4 @@
-# Code Your Future Extension Pack
+# CodeYourFuture Extension Pack
 
 [![Build Status][1]][2] [![Marketplace Version][3]][4]
 
