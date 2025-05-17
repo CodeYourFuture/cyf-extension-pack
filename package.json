@@ -11,6 +11,9 @@
     "url": "https://github.com/codeyourfuture/cyf-extension-pack/issues"
   },
   "description": "Recommended VS Code extensions for CYF learners.",
+  "files": [
+    "cyf-logo.png"
+  ],
   "engines": {
     "vscode": "^1.43.0"
   },
