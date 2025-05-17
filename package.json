@@ -12,7 +12,8 @@
   },
   "description": "Recommended VS Code extensions for CYF learners.",
   "files": [
-    "cyf-logo.png"
+    "cyf-logo.png",
+    "LICENSE"
   ],
   "engines": {
     "vscode": "^1.43.0"
