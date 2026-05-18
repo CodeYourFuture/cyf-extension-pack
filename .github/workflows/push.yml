@@ -11,13 +11,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/checkout@v6
+    - uses: actions/setup-node@v6
       with:
-        node-version: '22'
+        node-version: '24'
     - run: npm install --global @vscode/vsce
     - run: vsce package --out cyf-extension-pack.vsix
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-artifact@v7
       with:
         name: vsix-package
         path: cyf-extension-pack.vsix
@@ -30,12 +30,12 @@ jobs:
       name: marketplace
       url: ${{ vars.URL }}
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
+    - uses: actions/checkout@v6
+    - uses: actions/setup-node@v6
       with:
-        node-version: '22'
+        node-version: '24'
     - run: npm install --global @vscode/vsce
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v8
       with:
         name: vsix-package
     - run: vsce publish --packagePath cyf-extension-pack.vsix
