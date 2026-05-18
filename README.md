@@ -1,6 +1,6 @@
 # CodeYourFuture Extension Pack
 
-[![Build Status][1]][2] [![Marketplace Version][3]][4]
+[![Build Status][1]][2]
 
 Recommended VS Code extensions for CYF learners.
 
@@ -18,5 +18,3 @@ Recommended VS Code extensions for CYF learners.
 
   [1]: https://img.shields.io/github/actions/workflow/status/CodeYourFuture/cyf-extension-pack/push.yml?branch=main
   [2]: https://github.com/CodeYourFuture/cyf-extension-pack/actions/workflows/push.yml
-  [3]: https://img.shields.io/visual-studio-marketplace/v/CodeYourFuture.cyf-extension-pack?style=flat&logo=visual-studio-code
-  [4]: https://marketplace.visualstudio.com/items?itemName=CodeYourFuture.cyf-extension-pack
