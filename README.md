@@ -16,6 +16,7 @@ Recommended VS Code extensions for CYF learners.
 | Live Share | `MS-vsliveshare.vsliveshare` | Share your project with a team |
 | Git Mob co-author commits | `RichardKotze.git-mob` | Easily co-author a commit message from the source control panel when pair programming |
 | Playwright | `ms-playwright.playwright` | Run Playwright tests in VS Code |
+| Extension Pack for Java | `vscjava.vscode-java-pack` | Work with Java in VS Code |
 
   [1]: https://img.shields.io/github/actions/workflow/status/CodeYourFuture/cyf-extension-pack/push.yml?branch=main
   [2]: https://github.com/CodeYourFuture/cyf-extension-pack/actions/workflows/push.yml
