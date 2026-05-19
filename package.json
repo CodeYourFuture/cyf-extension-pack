@@ -36,13 +36,14 @@
     "Extension Packs"
   ],
   "extensionPack": [
-    "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
-    "streetsidesoftware.code-spell-checker",
     "eamodio.gitlens",
-    "ritwickdey.LiveServer",
+    "esbenp.prettier-vscode",
     "MS-vsliveshare.vsliveshare",
-    "RichardKotze.git-mob"
+    "ms-playwright.playwright",
+    "RichardKotze.git-mob",
+    "ritwickdey.LiveServer",
+    "streetsidesoftware.code-spell-checker"
   ],
   "keywords": [
     "javascript"
